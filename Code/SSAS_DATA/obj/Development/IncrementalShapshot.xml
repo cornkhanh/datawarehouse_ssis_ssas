@@ -1,0 +1,187 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_DATA</Database>
+    <Server>VANKHANH\NVKSQLSERVER</Server>
+    <ConnectionString>Data Source=VANKHANH\NVKSQLSERVER;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>PxXOKbRGymkyfbFeJAKVp8RCCSs=5/20/2023 12:51:04 AM5/19/2023 12:19:19 AM</TimeStamp>
+        <ID>
+          <String>SOURCE DWH DATA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>o2f7avKiorK8uFrBVOuyt2bHXSs=5/18/2023 10:23:32 PM5/19/2023 12:19:19 AM</TimeStamp>
+        <ID>
+          <String>fact_student_assessment</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>oVcEHL70Vyga2QGClDWKh7/uJ98=5/18/2023 10:56:13 PM5/19/2023 12:19:19 AM</TimeStamp>
+        <ID>
+          <String>fact_student_vle</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Tz3lJxUhhzKFmAeqihb9z06zJR8=5/19/2023 12:31:45 AM5/19/2023 12:28:18 AM</TimeStamp>
+        <ID>
+          <String>fact_studentRegistration</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>OUHqMq+uFcblr5+g989KaBTD/Q8=5/19/2023 1:17:45 AM5/19/2023 1:05:23 AM</TimeStamp>
+        <ID>
+          <String>fact_student_result</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2NrIK1hS4LoByaXma8HqPomVIfs=5/18/2023 11:09:14 PM5/19/2023 12:19:19 AM</TimeStamp>
+        <ID>
+          <String>Dim Assesment</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bWIoBqPxcaUqe4eEgbgIUtbO1EQ=5/18/2023 11:09:08 PM5/19/2023 12:19:19 AM</TimeStamp>
+        <ID>
+          <String>Dim Student</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>L5JX2lygi4K2Pve4zWyptAIi3RA=5/18/2023 11:38:00 PM5/19/2023 12:19:19 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oTNrXkfr/wK4JjehgckwYf7C1v4=5/18/2023 11:38:38 PM5/19/2023 12:19:19 AM</TimeStamp>
+        <ID>
+          <String>Dim Courses</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LqGHEMHtw2UkUhjDopIBBCljQVA=5/18/2023 11:08:53 PM5/19/2023 12:19:19 AM</TimeStamp>
+        <ID>
+          <String>Dim Student 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8MXkUKt15TzXq53hD6CNZAIAeps=5/18/2023 11:08:50 PM5/19/2023 12:19:19 AM</TimeStamp>
+        <ID>
+          <String>Dim Vle</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0NZnbART6l7uC/xdslVk2gpt60k=5/18/2023 11:33:24 PM5/19/2023 12:19:19 AM</TimeStamp>
+        <ID>
+          <String>Dim Date 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Vdu59hDX1mssj0XF4JKxhdiQZEU=5/19/2023 12:37:08 AM5/19/2023 12:32:17 AM</TimeStamp>
+        <ID>
+          <String>Dim Courses 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QAx1iQI7eB8+u4q9zz11DBsKj9I=5/19/2023 12:34:53 AM5/19/2023 12:32:17 AM</TimeStamp>
+        <ID>
+          <String>Dim Student 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OXnCpLwzvSik37fLeiAkFUl1NZE=5/19/2023 12:34:31 AM5/19/2023 12:32:17 AM</TimeStamp>
+        <ID>
+          <String>Dim Date 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tBoWEPFfxt2zl94cgTqPwqJPXl4=5/19/2023 1:14:19 AM5/19/2023 1:08:04 AM</TimeStamp>
+        <ID>
+          <String>Dim Results</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Abb6fw+Xya/UVZBlPkBPRWYAMQY=5/19/2023 1:09:31 AM5/19/2023 1:08:04 AM</TimeStamp>
+        <ID>
+          <String>Dim Student 3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DT8oZa+heSCXvaH9cUXJNALM7AU=5/19/2023 1:10:25 AM5/19/2023 1:08:04 AM</TimeStamp>
+        <ID>
+          <String>Dim Date 3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>WhWazwRZFlhoe/B1cTZnWdnhVkc=5/18/2023 10:43:16 PM5/19/2023 12:19:19 AMd+K7bDdCXKW88eCUU4Ny/5GdTRM=5/18/2023 10:32:54 PM5/19/2023 12:19:19 AM</TimeStamp>
+        <ID>
+          <String>fact_student_assessment</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>EldIkgcXqtJPOs02OObeD/g/fqo=5/18/2023 11:24:37 PM5/19/2023 12:19:19 AMf2AOKrRaioJGS4WZsnUZfRUQxF4=5/18/2023 10:56:32 PM5/19/2023 12:19:19 AM</TimeStamp>
+        <ID>
+          <String>fact_student_vle</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>iMLrU1vpCCe9Ey4CpREg5pJv8c4=5/19/2023 12:35:47 AM5/19/2023 12:32:17 AMTJvIqODiYnPbXfOFyNjAFNwhsew=5/19/2023 12:32:17 AM5/19/2023 12:32:17 AM</TimeStamp>
+        <ID>
+          <String>fact_studentRegistration</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>PBNrWLsivTxoBF6VmPx+e0YKQRM=5/19/2023 1:03:41 PM5/19/2023 1:08:04 AMX+DRWqXB1WFQdMNyvejFdAon7QM=5/19/2023 1:08:05 AM5/19/2023 1:08:04 AM</TimeStamp>
+        <ID>
+          <String>fact_student_result</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>+V27F3GVr0/QRKx8Zkalnt1F1bA=5/17/2023 9:54:06 PM5/19/2023 12:19:19 AM</TimeStamp>
+      <ID>
+        <String>SSAS_DATA</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-05-19T18:40:05.446667Z</LastDeployed>
+</DeploymentSnapshot>

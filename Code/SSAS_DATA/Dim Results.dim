@@ -1,0 +1,405 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dfff5ef8-08e1-42e4-9631-568f6f27d8c5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Results</ID>
+  <Name>Dim Results</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2012" scrolltop="-5694" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8213" y="15854" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_results" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4149" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003510000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dim_results" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2012</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5694</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="195">
+            <Shape Id="Result Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Result Id" />
+                <Attribute Id="Disability" />
+                <Attribute Id="Final Result" />
+                <Attribute Id="Highest Education" />
+                <Attribute Id="Imd Band" />
+                <Attribute Id="Num Of Prev Attempts" />
+                <Attribute Id="Studied Credits" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Id Student" Expanded="false">
+              <Attributes>
+                <Attribute Id="Id Student" />
+              </Attributes>
+              <Position x="268" y="20" />
+            </Shape>
+            <Shape Id="Code Presentation" Expanded="false">
+              <Attributes>
+                <Attribute Id="Code Presentation" />
+              </Attributes>
+              <Position x="517" y="20" />
+            </Shape>
+            <Shape Id="Code Module" Expanded="false">
+              <Attributes>
+                <Attribute Id="Code Module" />
+              </Attributes>
+              <Position x="766" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8e6babe7-30bd-4c80-abdd-537a5f4ce9e9">
+    <DataSourceViewID>fact_student_result</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="1c42b91b-b27f-403c-a505-67e6ff9a02da">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="0de8356c-5c60-446c-b795-83aefd5e1382">
+      <ID>Result Id</ID>
+      <Name>Result Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4d31efec-62d0-4745-94ff-784000a99731">
+          <DataType>WChar</DataType>
+          <DataSize>152</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b1bf1bdf-bd79-4a00-b9ca-560a15de416f">
+            <TableID>dbo_dim_results</TableID>
+            <ColumnID>result_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="9a20e4d7-cfe1-452a-98d3-0badb2ff5525">
+        <DataType>WChar</DataType>
+        <DataSize>152</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="73707262-f620-4e2f-ad44-af20a4a8542b">
+          <TableID>dbo_dim_results</TableID>
+          <ColumnID>result_id</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a98286b9-4f1c-4330-b94c-131724f7cdb7">
+          <AttributeID>Highest Education</AttributeID>
+          <Name>Highest Education</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a21eb828-079c-463a-b4e9-d0517cedac25">
+          <AttributeID>Imd Band</AttributeID>
+          <Name>Imd Band</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a04b0c77-fe15-4d70-9837-1a6d91ca097d">
+          <AttributeID>Num Of Prev Attempts</AttributeID>
+          <Name>Num Of Prev Attempts</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e3e0717a-cf6f-4990-a25f-9e77bab14974">
+          <AttributeID>Studied Credits</AttributeID>
+          <Name>Studied Credits</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0e9f6c69-0c95-4795-97e5-97bd883585ff">
+          <AttributeID>Disability</AttributeID>
+          <Name>Disability</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="555c919c-073a-42f3-a8b0-c7c9e4979099">
+          <AttributeID>Final Result</AttributeID>
+          <Name>Final Result</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ebc5d3b2-c977-4faf-82b1-f0e9f9b9db60">
+          <AttributeID>Id Student</AttributeID>
+          <Name>Id Student</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="662f646b-dc88-4ef1-af5c-05e8b0f8d4c3">
+      <ID>Code Module</ID>
+      <Name>Code Module</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0026136d-3d38-4a1f-9193-10616c8d6954">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f9bc932e-27ed-4985-9842-13ac80d2d2b0">
+            <TableID>dbo_dim_results</TableID>
+            <ColumnID>code_module</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="293696e2-e2e4-46c8-99e8-da5248d6582a">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="34409fff-2a48-4339-8439-fe99edea6187">
+          <TableID>dbo_dim_results</TableID>
+          <ColumnID>code_module</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2ccbc533-7f0a-4b7b-ab6e-cd4f797b3784">
+      <ID>Code Presentation</ID>
+      <Name>Code Presentation</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="38454e53-ba4e-4607-852f-2dfe2b161d61">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5bdcfe3b-6767-4949-956e-4666e4da97ef">
+            <TableID>dbo_dim_results</TableID>
+            <ColumnID>code_presentation</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="2450c919-d7ab-4d12-8928-3090c75d888f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="33e1e78d-6104-4815-879b-9364be50f33d">
+            <TableID>dbo_dim_results</TableID>
+            <ColumnID>code_module</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="0819dab1-e2f5-41b4-9501-27db9beb5ea0">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="842f6bf2-dff8-4295-b811-6b17dd7a3ab7">
+          <TableID>dbo_dim_results</TableID>
+          <ColumnID>code_presentation</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="79a8e8aa-3cf5-428a-9532-86e0c703b158">
+          <AttributeID>Code Module</AttributeID>
+          <Name>Code Module</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d729272f-6712-4bd0-b98a-0a5d0b4b411d">
+      <ID>Id Student</ID>
+      <Name>Id Student</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="01ae629a-7d9d-4f6f-a017-d65969144a8f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5ab10bb5-2744-46d4-8fa5-f1c8cb15b100">
+            <TableID>dbo_dim_results</TableID>
+            <ColumnID>id_student</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="62b2212a-049b-40b9-af85-829263500f8b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="955e6c2e-6f06-4e50-b523-d9a7645c744b">
+            <TableID>dbo_dim_results</TableID>
+            <ColumnID>code_presentation</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="f8356a17-8a0f-4849-83bd-0daf8a25132a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce24dfce-ec39-43ba-b391-c67624d612f3">
+            <TableID>dbo_dim_results</TableID>
+            <ColumnID>code_module</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f859606e-1057-4a8b-bd2e-9d2c05f3e963">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a7e81047-2678-44f0-9d5f-2eaf4f1558c6">
+          <TableID>dbo_dim_results</TableID>
+          <ColumnID>id_student</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ddf273c3-ff34-42cb-ad29-b13b043933b2">
+          <AttributeID>Code Presentation</AttributeID>
+          <Name>Code Presentation</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="54745290-05c8-44a6-b0b3-75ca49bf078e">
+      <ID>Highest Education</ID>
+      <Name>Highest Education</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="632cc864-cdd5-4529-8f30-69055b70566e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="74ee54dd-4114-422d-ba30-7c53a2dbf80a">
+            <TableID>dbo_dim_results</TableID>
+            <ColumnID>highest_education</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="38c1865d-ebc0-49c3-a830-888d644e2bd1">
+      <ID>Imd Band</ID>
+      <Name>Imd Band</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="de2ba664-3044-4e89-8d55-dc994b9b4c4c">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b4c2c68e-ef81-477a-9e9a-3fa5afb97bad">
+            <TableID>dbo_dim_results</TableID>
+            <ColumnID>imd_band</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="52fd5ab3-9566-4379-a930-eab8f0e0abd3">
+      <ID>Num Of Prev Attempts</ID>
+      <Name>Num Of Prev Attempts</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d5ccc55c-c157-463d-a795-02cb6472d425">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2e86553d-e73d-4d42-880d-bd8507ea7583">
+            <TableID>dbo_dim_results</TableID>
+            <ColumnID>num_of_prev_attempts</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="940697d0-d35c-4d5e-836b-9cd74199d48a">
+      <ID>Studied Credits</ID>
+      <Name>Studied Credits</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f8d7e24e-32af-4fe8-9a87-2850584651bf">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a4cf8fa8-d2f9-477d-bff8-b34ae1af1e4a">
+            <TableID>dbo_dim_results</TableID>
+            <ColumnID>studied_credits</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fb40a5aa-e965-461a-84ad-686f417f54ca">
+      <ID>Disability</ID>
+      <Name>Disability</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3f7561d8-9c70-4138-bcbe-56dd761b8f8a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8afe8ace-1b30-4819-86f6-627777ad07f6">
+            <TableID>dbo_dim_results</TableID>
+            <ColumnID>disability</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1600bae0-4299-476d-8645-4604b1d191d2">
+      <ID>Final Result</ID>
+      <Name>Final Result</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cc8997ea-ee0e-45cb-be50-6d9fa3a0a815">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="17e9ee38-066c-48ae-8ed6-3436d927ba8c">
+            <TableID>dbo_dim_results</TableID>
+            <ColumnID>final_result</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="41be7774-fb04-4ba0-b750-048a6fc9c364">
+      <ID>Hierarchy</ID>
+      <Name>RESULT_ID</Name>
+      <Levels>
+        <Level dwd:design-time-name="b201900e-adb3-4c9c-8189-28c51be379e5">
+          <ID>Code Module</ID>
+          <Name>Code Module</Name>
+          <SourceAttributeID>Code Module</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="603816f0-50a8-42f6-af7f-f20f6664d592">
+          <ID>Code Presentation</ID>
+          <Name>Code Presentation</Name>
+          <SourceAttributeID>Code Presentation</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="58d1b48c-1c6b-42ab-9e72-94c7a9738421">
+          <ID>Id Student</ID>
+          <Name>Id Student</Name>
+          <SourceAttributeID>Id Student</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
